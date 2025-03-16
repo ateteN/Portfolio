@@ -7,36 +7,40 @@
     <title>Atete Norette</title>
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- navbar -->
+
     <header class="header">
         <a href="#" class="logo">Norette</a>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portofolio">Portofolio</a>
+            <a href="#portfolio">Portofolio</a>
             <a href="#contact">Contact</a>
         </nav>
-
         <div class="bx bx-moon" id="darkMode-icon"></div>
     </header>
+
+    <!-- home section area -->
+
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, I am</h3>
             <h1>Atete Norette</h1>
-            <p>A Junior web developer based in Kigali-Rwanda, i specialize in creating beautiful and functional websites for great user interaction</p>
+            <p>I'm a Junior Web Developer based in Kigali, Rwanda, passionate about crafting visually appealing and user-friendly websites for seamless digital experiences</p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
                 <a href="#"><i class='bx bxl-github' ></i></a>
                 <a href="#"><i class='bx bxl-instagram' ></i></a>
                 <a href="#"><i class='bx bxl-twitter' ></i></a>
             </div>
-
             <a href="#" class="btn">Download CV</a>
         </div>
+
+        <!-- continous scroll -->
+
         <div class="profession-container">
             <div class="profession-box">
                 <div class="profession" style="--i:0;">
@@ -62,23 +66,126 @@
             <div class="overlay"></div>
         </div>
         <div class="home-img">
-            <img src="d95d99e9-a3be-4b4b-8011-634193b42cbe-removebg-preview.png" alt="image profile">
+            <img src="1.png" alt="image profile">
         </div>
     </section>
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="Untitled design (2).png" alt="">
-        </div>
+
+    <!-- about me section -->
+
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
         <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Hi, I'm here to help you with your next Project!</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Eaque modi vero mollitia fuga quibusdam culpa omnis 
-                quidem repellendus tenetur. Quibusdam nesciunt fugiat 
-                accusamus non deleniti.</p>
-                <a href="#" class="btn">Read More</a>
+            <div class="about-left">
+                <p>I'm a passionate Junior Software Developer with experience in designing, developing, and maintaining websites, applications, and software solutions. </br>
+                </br>My focus is on writing clean, efficient, and scalable code to solve real-world problems. I thrive in both collaborative team environments and independent projects, ensuring high-quality results through strong problem-solving and attention to detail.</p>
+            </div>
+
+            <!-- skills section -->
+
+            <div class="about-right">
+                <h3>Skills</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>Microsoft Office</li>
+                    <li>Hardware/Software Maintenance</li>
+                    <li>Troubleshooting</li>
+                    <li>Administrative Task</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- portfolio section one -->
+
+    <!-- <section class="portfolio" id="portfolio">
+        <h2 class="section-title">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="delicious-food-restaurant-landing-page-template_23-2151063735.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Designed a restaurant website</p>
+                    <a href="#"><box-icon name='link'></box-icon></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="delicious-food-restaurant-landing-page-template_23-2151063735.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Created a shipment dashboard for Nithub Engineering company using Reactjs & websocket</p>
+                    <a href="#"><box-icon name='link'></box-icon></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="delicious-food-restaurant-landing-page-template_23-2151063735.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Created a shipment dashboard for Nithub Engineering company using Reactjs & websocket</p>
+                    <a href="#"><box-icon name='link'></box-icon></a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- portfolio section 2 -->
+
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title">Latest <span>Project</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- item -->
+             <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="delicious-food-restaurant-landing-page-template_23-2151063735.avif" alt="">
+                </div>
+                <h3 class="portfolio-tem-title">Project name</h3>
+                <button type="button"class="btn">View Project</button>
+                <div class="portfolio-item-detail">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in alias non, voluptas obcaecati doloribus fuga autem vel consectetur sit tempore corporis eveniet qui eum quasi debitis, cupiditate distinctio totam sequi hic rerum, quibusdam temporibus officiis sapiente! Ab, ullam temporibus!</p>
+
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>technologies used - <span>write here</span></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
         </div>
     </section>
+
+    <!-- contact-me section -->
+
+    <section class="contact" id="contact">
+       <h2 class="section-title">Contact <span>Me</span></h2>
+       <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Names">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+       </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Atete Norette | All Rights Reserved.</p>
+        </div>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>

@@ -292,7 +292,7 @@ border-left: 384px solid transparent;
 }
 
 .home-img img {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 60%;
     right: 0;
@@ -725,7 +725,10 @@ transform: translateX(5px);
         flex-direction: column;
         text-align: center;
     }
-
+    section h2 {
+        margin-bottom: .5rem; /* Less spacing between sections */
+        padding-bottom: .5rem;
+    }
     .navbar {
         display: none;
         flex-direction: column;
@@ -744,7 +747,7 @@ transform: translateX(5px);
     }
 
     #menu-icon {
-        display: block;
+        display: none;
     }
 
     .home-content h1 {
@@ -753,11 +756,18 @@ transform: translateX(5px);
 
     .home-content h3 {
         font-size: 2.5rem;
+        padding-top: 20px;
     }
 
-    .home-img {
-        width: 80vw;
-        z-index: 1;
+    .home-img img {
+        display: block;
+        width: 70vw;
+        height: auto;
+        gap: 0;
+        margin-right: 40rem;
+        padding: 1rem;
+        left: -8%;
+        margin-top: 4rem;
     }
 
     .portfolio .portfolio-container {
@@ -785,5 +795,15 @@ transform: translateX(5px);
 
     .portfolio .portfolio-container {
         gap: 1.5rem;
+    }
+    .home-img img {
+        display: block;
+        width: 90vw;
+        height: auto;
+        gap: 0;
+    
+        padding: 1rem;
+        left: -28%;
+        margin-top: 4rem;
     }
 }

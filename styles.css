@@ -720,7 +720,6 @@ transform: translateX(5px);
     }
 }
 
-/* Mobile devices (max-width: 768px) */
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -765,7 +764,6 @@ transform: translateX(5px);
     }
 }
 
-/* Small Mobile (max-width: 480px) */
 @media screen and (max-width: 480px) {
     html {
         font-size: 55%;
@@ -788,12 +786,3 @@ transform: translateX(5px);
         gap: 1.5rem;
     }
 }
-
-
-
-
-
-
-
-
-

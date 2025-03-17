@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - Detailed 'About Me' and project showcase sections
 - Contact form integration
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
 
 ## Dark Mode Persistence
@@ -28,7 +28,7 @@ portfolio/
 └── README.md          # This file
 ```
 
-## 📌 Setup Instructions
+## Setup Instructions
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/your-portfolio.git

@@ -757,6 +757,7 @@ transform: translateX(5px);
 
     .home-img {
         width: 80vw;
+        z-index: 1;
     }
 
     .portfolio .portfolio-container {

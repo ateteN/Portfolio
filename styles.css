@@ -51,6 +51,7 @@ body.dark #darkMode-icon {
 
 body.dark section {
     color: #fff; 
+    background: #333;
 }
 body.dark .home-content {
     color: #fff;
@@ -60,6 +61,7 @@ body.dark .btn:hover {
     background: transparent;
     color: #754ef9;
     border-color: #754ef9;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 body.dark section h2 {
@@ -68,6 +70,22 @@ body.dark section h2 {
 body.dark .about-left,
 body.dark .about-right li {
     color: #fff;
+    background: #333;
+}
+body.dark .about-right li :hover{
+    color: #754ef9;
+}
+body.dark section h2 {
+    color: #fff;
+    background: #333;
+}
+body.dark section h3{
+    color: #fff;
+}
+body.dark .about-left,
+body.dark .about-right li {
+    color: #fff;
+    background: #333;
 }
 body.dark .about-right li :hover{
     color: #754ef9;
@@ -326,14 +344,14 @@ color: var(--main-color);
 
 .about {
 padding: 6rem 8%;
-background: var(--bg-color)
+background: var(--bg-color);
 min-height: 100vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 120px;
-
 }
+
 .section-title {
 font-size: 2.8rem;
 color: #2d2e32;
@@ -519,6 +537,17 @@ transform: translateX(5px);
     text-align: center;
     margin-top: 1rem;
     padding: 0 1rem;
+}
+.portfolio-layer .project-status {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #fff;
+    background: var(--main-color); 
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: .5rem;
+    display: inline-block;
 }
 .general-info ul {
     list-style: none;

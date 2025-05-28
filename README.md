@@ -21,20 +21,11 @@ This portfolio includes a dark mode feature that saves user preferences using `l
 ## Project Structure
 ```
 portfolio/
-│── index.html         # Main HTML file
-│── styles.css         # Stylesheet
-│── script.js          # JavaScript logic
-│── assets/            # Images, icons, and other assets
-└── README.md          # This file
+│── index.html         
+│── styles.css         
+│── script.js          
+│── assets/           
+└── README.md         
 ```
 
-## Setup Instructions
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/your-portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd your-portfolio
-   ```
-3. Open `index.html` in your browser.
+
